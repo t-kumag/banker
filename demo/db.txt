@@ -1,5 +1,6 @@
 users		
 	id	
+	login_id	ログインid
 	name	ユーザ名
 		
 user_bank_relations		
@@ -14,8 +15,20 @@ banks
 		
 bank_histories		
 	id	
+	bank_id
 	date	日付
-	reason	適用
-	payment	支払い
-	deposit	預け入れ
-	other	その他
+	reason	摘要
+	payment_amount	支払い
+	deposit_amount	預け入れ
+	remarks	備考
+
+plans
+	id
+	bank_id
+	date	日付
+	reason	摘要
+	payment_amunt	支払い
+	deposit_amunt	預け入れ
+	remarks	備考
+	
+	
