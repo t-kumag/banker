@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>banker</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+    <!-- self cs s-->
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="h1 site_title">banker</div>
+
+      <div class="h4">銀行名</div>
+
+      <div class="card border-secondary total">
+        <div class="card-header">残高：300,000</div>
+      </div>
+
+      <div class="card border-secondary search_form">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-2">日付：</div>
+            <div class="col-md-1">開始</div>
+            <div class="col-md-3"><input type="date" class="form-control"></div>
+          <div class="col-md-1">〜</div>
+            <div class="col-md-1">終了</div>
+            <div class="col-md-3"><input type="date" class="form-control"></div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-secondary">検索</button>
+          </div>
+        </div>
+      </div>
+
+      <table class="table table-striped history">
+        <tr class="table-dark">
+          <th>日付</th>
+          <th>摘要</th>
+          <th>支払い</th>
+          <th>預け入れ</th>
+          <th>残高</th>
+        </tr>
+        <tr>
+          <td>2019/01/01</td>
+          <td>クレジットカード</td>
+          <td>100,000</td>
+          <td></td>
+          <td>300,000</td>
+        </tr>
+        <tr>
+          <td>2019/01/01</td>
+          <td>クレジットカード</td>
+          <td>100,000</td>
+          <td></td>
+          <td>290,000</td>
+        </tr>
+        <tr>
+          <td>2019/01/01</td>
+          <td>クレジットカード</td>
+          <td></td>
+          <td>100,000</td>
+          <td>300,000</td>
+        </tr>
+      </table>
+
+    </div>
+  </body>
+</html>
