@@ -1,0 +1,21 @@
+users		
+	id	
+	name	ユーザ名
+		
+user_bank_relations		
+	user_id	ユーザID
+	bank_id	銀行ID
+		
+banks		
+	id	
+	name	銀行名
+	bank_number	銀行番号
+	account_number	口座番号
+		
+bank_histories		
+	id	
+	date	日付
+	reason	適用
+	payment	支払い
+	deposit	預け入れ
+	other	その他
