@@ -1,26 +1,25 @@
-users		
-	id	
+users
+	id
 	login_id	ログインid
 	name	ユーザ名
-		
-user_bank_relations		
+
+user_bank_relations
 	user_id	ユーザID
 	bank_id	銀行ID
-		
+
 banks		
-	id	
+	id
 	name	銀行名
 	bank_number	銀行番号
 	account_number	口座番号
-		
-bank_histories		
-	id	
+
+bank_histories
+	id
 	bank_id
 	date	日付
 	reason	摘要
 	payment_amount	支払い
 	deposit_amount	預け入れ
-	remarks	備考
 
 plans
 	id
@@ -29,6 +28,3 @@ plans
 	reason	摘要
 	payment_amunt	支払い
 	deposit_amunt	預け入れ
-	remarks	備考
-	
-	
