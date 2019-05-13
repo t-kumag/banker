@@ -29,47 +29,18 @@
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark m-1">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="./banks.html">banks</a>
-          <a class="nav-item nav-link active" href="./import.html">import</a>
-          <a class="nav-item nav-link" href="./whatis.html">what is</a>
+          <a class="nav-item nav-link" href="./import.html">import</a>
+          <a class="nav-item nav-link active" href="./whatis.html">what is</a>
         </div>
       </nav>
 
-      <div class="h4">import</div>
+      <div class="h4">what is</div>
+      <div>
+        <div>　銀行口座の内容を管理する。</div>
+        <div>　登録は手動で行う。</div>
+        <div>　銀行からデータが消える前に登録する必要がある。</div>
+      </div>
 
-      <form action="./import_confirm.html" mehtod="get">
-        <div class="card border-secondary total">
-          <div class="card-header">
-            <input type="file"></input>
-          </div>
-          <div class="card-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-3">
-                  <ul class="list-group">
-                    <li class="list-group-item list-group-item-dark text-light">日付</li>
-                    <li class="list-group-item list-group-item-dark text-light">摘要</li>
-                    <li class="list-group-item list-group-item-dark text-light">支払い</li>
-                    <li class="list-group-item list-group-item-dark text-light">預け入れ</li>
-                  </ul>
-                </div>
-
-                <div class="col-md-8">
-                  <ul class="list-group" id="columns">
-                    <li class="list-group-item column" id="date">日付</li>
-                    <li class="list-group-item column" id="reason">摘要</li>
-                    <li class="list-group-item column" id="payment">支払い</li>
-                    <li class="list-group-item column" id="deposit">預け入れ</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="row">
-                  <button type="submit" class="btn btn-secondary m-3" id="confirm">確認</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
     </div>
 
     <script>
